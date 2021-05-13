@@ -1,22 +1,39 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa%7CPatua+One");
     /* Typography */
+
 body,
 button,
 input,
 select,
 textarea {
-    color: #404040;
-    font-family: "Comfortaa", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
 }
+
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Patua One", serif;
-    letter-spacing: 2px;
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
 }
 
 ul {
     list-style-type: none;
     padding-inline-start: 0.25rem;
 }
-.selection
+
+.top-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    
+}
+.options {
+    
+    flex-basis: 24%;
+    margin: 0 2rem;
+    border: 1px dashed dodgerblue;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(143, 143, 143);
+}
